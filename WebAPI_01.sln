@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libreria.Modelos", "WebAPI_01\Libreria.Modelos.csproj", "{696E714D-088C-4D14-A053-42DC807D92F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libreria.API", "Libreria.API\Libreria.API.csproj", "{7657C176-EEBA-4821-BA67-EA6A03B5735E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libreria.ApiTest", "LibreriaApiTest\Libreria.ApiTest.csproj", "{BFE13EF7-C953-476B-B7D2-1EC4A10C6075}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{696E714D-088C-4D14-A053-42DC807D92F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{696E714D-088C-4D14-A053-42DC807D92F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{696E714D-088C-4D14-A053-42DC807D92F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{696E714D-088C-4D14-A053-42DC807D92F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7657C176-EEBA-4821-BA67-EA6A03B5735E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7657C176-EEBA-4821-BA67-EA6A03B5735E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7657C176-EEBA-4821-BA67-EA6A03B5735E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7657C176-EEBA-4821-BA67-EA6A03B5735E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFE13EF7-C953-476B-B7D2-1EC4A10C6075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFE13EF7-C953-476B-B7D2-1EC4A10C6075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFE13EF7-C953-476B-B7D2-1EC4A10C6075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFE13EF7-C953-476B-B7D2-1EC4A10C6075}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
