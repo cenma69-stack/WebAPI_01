@@ -9,7 +9,7 @@ namespace Libreria.API
         {
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddDbContext<LibreriaAPIContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("LibreriaAPIContext") ?? throw new InvalidOperationException("Connection string 'LibreriaAPIContext' not found.")));
+                options.UseNpgsql(builder.Configuration.GetConnectionString("LibreriaAPIContext") ?? throw new InvalidOperationException("Connection string 'LibreriaAPIContext' not found.")));
 
             // Add services to the container.
 
