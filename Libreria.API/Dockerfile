@@ -11,7 +11,7 @@ EXPOSE 8081
 # Esta fase se usa para compilar el proyecto de servicio
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
-WORKDIR /src
+WORKDIR /src 
 COPY ["Libreria.API/Libreria.API.csproj", "Libreria.API/"]
 COPY ["WebAPI_01/Libreria.Modelos.csproj", "WebAPI_01/"]
 RUN dotnet restore "./Libreria.API/Libreria.API.csproj"
