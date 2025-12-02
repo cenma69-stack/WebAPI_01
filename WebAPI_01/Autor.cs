@@ -10,7 +10,7 @@ namespace Libreria.Modelos
     public class Autor
     {
         [Key] public int Id { get; set;}
-        public string Nombre_Autor { get; set;}
+        public string Nombre_Autor { get; set;} 
 
         //navegacion
         public List<Libro>? Libros {  get; set;}     
